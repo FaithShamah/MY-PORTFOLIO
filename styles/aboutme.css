@@ -1,0 +1,144 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Arial', sans-serif;
+}
+
+body {
+   background-color: wheat;
+   color: #333;
+   line-height: 1.6;
+   font-size: 16px;
+}
+
+nav {
+   background-color: #333;
+   padding: 10px 0;
+   text-align: center;
+}
+
+nav a {
+   color: white;
+   text-decoration: none;
+   margin: 0 20px;
+   font-size: 18px;
+   transition: color 0.3s ease;
+}
+
+nav a:hover {
+   color: #f39c12;
+   text-decoration: underline;
+}
+
+h1 {
+   text-align: center;
+   margin-top: 50px;
+   font-size: 3rem;
+   color: #333;
+   margin-right: 600px;
+}
+
+.big-A {
+   font-size: 4rem;
+   color: orangered;
+}
+
+.small-text {
+   font-size: 2.5rem;
+   color: #333;
+}
+
+.big-NAMONOFAITH {
+   font-weight: bold;
+   color: orangered;
+}
+
+.big-WomenInstituteOfTechnologyandInnovation {
+   font-weight: bold;
+   color: o;
+}
+
+.big-DiplomainComputerScience {
+   font-weight: bold;
+   color: #3498db;
+}
+
+p {
+   font-size: 1.2rem;
+   max-width: 800px;
+   margin: 20px auto;
+   text-align: left;
+   line-height: 1.8;
+   margin-right: 700px;
+   margin-left: 50px;
+   
+}
+
+p span {
+   font-weight: bold;
+   color: orangered;
+}
+
+.about-image {
+   text-align: right; /* Align image to the right */
+   margin-top: 35px;
+   position: absolute; /* Position it at the top-right corner */
+   top: 0;
+   right: 0;
+   padding: 20px; /* Optional padding for spacing from edges */
+}
+
+.about-image img {
+   width: 600px; /* Set a fixed width for the circular shape */
+   height: 600px; /* Set the height to the same as the width for a circle */
+   border-radius: 50%; /* Make the image circular */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+   h1 {
+       font-size: 2.5rem;
+   }
+
+   .big-A {
+       font-size: 3rem;
+   }
+
+   .small-text {
+       font-size: 2rem;
+   }
+
+   nav a {
+       font-size: 16px;
+       margin: 0 10px;
+   }
+
+   p {
+       font-size: 1rem;
+       padding: 0 15px;
+   }
+}
+
+@media (max-width: 480px) {
+   h1 {
+       font-size: 2rem;
+   }
+
+   .big-A {
+       font-size: 2.5rem;
+   }
+
+   .small-text {
+       font-size: 1.5rem;
+   }
+
+   nav a {
+       font-size: 14px;
+       margin: 0 5px;
+   }
+
+   p {
+       font-size: 0.9rem;
+   }
+}
